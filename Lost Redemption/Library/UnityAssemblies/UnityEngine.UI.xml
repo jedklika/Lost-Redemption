@@ -5431,7 +5431,7 @@ Characters 0-9, . (dot), and - (dash / minus sign) are allowed. The dash is only
         <para>The type of transition that will be applied to the targetGraphic when the state changes.</para>
       </summary>
     </member>
-    <member name="M:UnityEngine.UI.Selectable.AllSelectablesNoAlloc(UnityEngine.UI.Selectable[]&amp;)">
+    <member name="M:UnityEngine.UI.Selectable.AllSelectablesNoAlloc(UnityEngine.UI.Selectable[])">
       <summary>
         <para>Non allocating option to get all the selectable objects currently active in the Scene.</para>
       </summary>

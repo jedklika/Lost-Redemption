@@ -1,9 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption", "Lost Redemption.csproj", "{04620137-CB6A-647C-9D5C-7B728B5DF6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption", "Lost Redemption.csproj", "{04620137-CB6A-647C-9D5C-7B728B5DF6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption", "Lost Redemption.csproj", "{04620137-CB6A-647C-9D5C-7B728B5DF6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption", "Lost Redemption.csproj", "{04620137-CB6A-647C-9D5C-7B728B5DF6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption", "Lost Redemption.csproj", "{04620137-CB6A-647C-9D5C-7B728B5DF6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption", "Lost Redemption.csproj", "{04620137-CB6A-647C-9D5C-7B728B5DF6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption", "Lost Redemption.csproj", "{04620137-CB6A-647C-9D5C-7B728B5DF6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption.Editor", "Lost Redemption.Editor.csproj", "{E84E5837-6ACE-2004-8502-F3CBAE3256E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption.Editor", "Lost Redemption.Editor.csproj", "{E84E5837-6ACE-2004-8502-F3CBAE3256E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption.Editor", "Lost Redemption.Editor.csproj", "{E84E5837-6ACE-2004-8502-F3CBAE3256E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption.Editor", "Lost Redemption.Editor.csproj", "{E84E5837-6ACE-2004-8502-F3CBAE3256E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption.Editor", "Lost Redemption.Editor.csproj", "{E84E5837-6ACE-2004-8502-F3CBAE3256E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption.Editor", "Lost Redemption.Editor.csproj", "{E84E5837-6ACE-2004-8502-F3CBAE3256E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption.Editor", "Lost Redemption.Editor.csproj", "{E84E5837-6ACE-2004-8502-F3CBAE3256E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost Redemption.Editor", "Lost Redemption.Editor.csproj", "{E84E5837-6ACE-2004-8502-F3CBAE3256E3}"
 EndProject
@@ -17,6 +41,58 @@ Global
 		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04620137-CB6A-647C-9D5C-7B728B5DF6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E84E5837-6ACE-2004-8502-F3CBAE3256E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -24,8 +100,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7627E742-D150-41EA-932E-6B291FA46446}
 	EndGlobalSection
 EndGlobal
