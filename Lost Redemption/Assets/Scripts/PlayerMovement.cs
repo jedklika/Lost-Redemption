@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
-    public float Speed;
-    public float jumpHeight;
+    public float Speed = 10;
+    public float jumpHeight = 10;
     private bool isJumping = false;
     private float timeBtwAttack;
     public float startTimeBtwAttack;
@@ -15,6 +15,12 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask whatIsEnemies;
     public float attackRange;
     public int damage;
+
+
+    [SerializeField]
+    private int health;
+
+    private bool invincible;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +30,15 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
+    private void Update()
+    {
+        if(health <= 0)
+        {
+            Destroy(this.gameObject);
+            SceneManager.LoadScene(0);
+        }
+    }
+
     void FixedUpdate()
     {
         if (Input.GetKeyDown(KeyCode.F) && timeBtwAttack <= 0)
@@ -104,5 +119,35 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D hitInfo)
+    {
+        if (!invincible)    //if NOT invincible
+        {
+            if (hitInfo.gameObject.CompareTag("Foe"))   //if player collides with Foe
+            {
+                health -= 4;
+                invincible = true;
+                Speed = 0;
+                jumpHeight = 0;
+
+                Invoke("resetMovement", .5f);
+                Invoke("resetInvulnerability", 2);
+
+                
+            }
+        }
+    }
+
+    private void resetMovement()   //Ends Stun
+    {
+        Speed = 10;
+        jumpHeight = 10;
+    }
+
+    private void resetInvulnerability()     //Ends invincibility frames
+    {
+        invincible = false;
     }
 }

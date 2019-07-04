@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 176207182}
   - component: {fileID: 176207181}
   - component: {fileID: 176207180}
+  - component: {fileID: 176207185}
   m_Layer: 8
   m_Name: Foe
   m_TagString: Foe
@@ -185,7 +186,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 0.12, y: 0.12}
   m_EdgeRadius: 0
 --- !u!114 &176207182
 MonoBehaviour:
@@ -267,6 +268,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &176207185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176207179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7a0af6246006748b65c1d7db55d6e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &372777801
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +700,7 @@ GameObject:
   - component: {fileID: 630999126}
   m_Layer: 0
   m_Name: Ghost_Enemies
-  m_TagString: Untagged
+  m_TagString: Foe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -721,6 +734,7 @@ GameObject:
   - component: {fileID: 637543392}
   - component: {fileID: 637543393}
   - component: {fileID: 637543394}
+  - component: {fileID: 637543395}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -812,6 +826,7 @@ MonoBehaviour:
     m_Bits: 256
   attackRange: 3
   damage: 5
+  health: 20
 --- !u!50 &637543392
 Rigidbody2D:
   serializedVersion: 4
@@ -857,7 +872,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 0.12, y: 0.12}
   m_EdgeRadius: 0
 --- !u!114 &637543394
 MonoBehaviour:
@@ -873,6 +888,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fallMultiplier: 2.5
   lowJumpMultiplier: 2
+--- !u!114 &637543395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637543388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a19e7e7584e424399a81024bf195b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &638812381
 GameObject:
   m_ObjectHideFlags: 0
@@ -5673,7 +5700,7 @@ GameObject:
   - component: {fileID: 816730290}
   m_Layer: 0
   m_Name: Ghost
-  m_TagString: Untagged
+  m_TagString: Foe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6353,7 +6380,39 @@ MonoBehaviour:
     _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
     _AreaColors:
     - {r: 0, g: 0, b: 0, a: 0}
-  tagNames: []
+  tagNames:
+  - Basic Ground
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
   heuristic: 2
   heuristicScale: 1
   threadCount: 1
