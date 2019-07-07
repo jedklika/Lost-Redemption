@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 176207182}
   - component: {fileID: 176207181}
   - component: {fileID: 176207180}
-  - component: {fileID: 176207185}
+  - component: {fileID: 176207186}
   m_Layer: 8
   m_Name: Foe
   m_TagString: Foe
@@ -160,7 +160,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &176207181
 BoxCollider2D:
@@ -201,10 +201,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  Distance: 2
+  Distance: 4
   moveRight: 1
   groundDetection: {fileID: 1850449560}
   health: 10
+  animator: {fileID: 0}
+  losDistance: 5
 --- !u!212 &176207183
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -268,18 +270,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &176207185
-MonoBehaviour:
+--- !u!95 &176207186
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176207179}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f7a0af6246006748b65c1d7db55d6e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9a5fca394cd5acb499f5e71c9a4c47bf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &372777801
 GameObject:
   m_ObjectHideFlags: 0
