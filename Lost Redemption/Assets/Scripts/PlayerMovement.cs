@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private int health;
 
-    private bool invincible;
+    private bool invincible = false;
 
     // Start is called before the first frame update
     void Start()
@@ -119,26 +119,24 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
-    }
 
-    private void OnTriggerEnter2D(Collider2D hitInfo)
-    {
         if (!invincible)    //if NOT invincible
         {
-            if (hitInfo.gameObject.CompareTag("Foe"))   //if player collides with Foe
+            if (col.gameObject.CompareTag("Foe"))   //if player collides with Foe
             {
                 health -= 4;
                 invincible = true;
                 Speed = 0;
                 jumpHeight = 0;
 
-                Invoke("resetMovement", .5f);
+                Invoke("resetMovement", .2f);
                 Invoke("resetInvulnerability", 2);
 
-                
+
             }
         }
     }
+
 
     private void resetMovement()   //Ends Stun
     {
