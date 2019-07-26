@@ -11,6 +11,7 @@ TagManager:
   - Platform
   - Foe
   - Ladder
+  - Ghost
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - 
   - Enemy
   - Ladder
-  - 
+  - Obstacle
   - 
   - 
   - 
@@ -47,4 +48,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 2527386077
     locked: 0
