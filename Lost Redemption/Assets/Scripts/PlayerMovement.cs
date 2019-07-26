@@ -137,6 +137,20 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ghost"))   //if player collides with Foe
+        {
+            health -= 2;
+            invincible = true;
+            Speed = 0;
+            jumpHeight = 0;
+
+            Invoke("resetMovement", .2f);
+            Invoke("resetInvulnerability", 2);
+        }
+    }
+
 
     private void resetMovement()   //Ends Stun
     {

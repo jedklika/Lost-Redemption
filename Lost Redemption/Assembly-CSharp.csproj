@@ -65,6 +65,9 @@
     <Compile Include="Assets\AttackBehaviour.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\CameraShake.cs" />
+    <Compile Include="Assets\GhostSight.cs" />
+    <Compile Include="Assets\GhostSpawner.cs" />
+    <Compile Include="Assets\GhostTimer.cs" />
     <Compile Include="Assets\jumping.cs" />
     <Compile Include="Assets\PatrolBehaviour.cs" />
     <Compile Include="Assets\Scripts\BasicEnemy.cs" />
